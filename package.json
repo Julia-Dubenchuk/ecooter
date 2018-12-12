@@ -1,0 +1,20 @@
+{
+  "name": "ecooter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --server \"src\" --files \"src\" --open \"external\" --no-notify --no-ghost-mode",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://dubenchuk@bitbucket.org/dubenchuk/ecooter.git"
+  },
+  "author": "Yulia Dubenchuk",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/dubenchuk/ecooter#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.3"
+  }
+}
